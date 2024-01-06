@@ -22,8 +22,9 @@ Promise.all([
 ])
   .then(cleanIntermediateBuild)
   .catch((error) => {
-    // eslint-disable-next-line no-console
+    // eslint-disable-next-line promise/catch-or-return, promise/no-nesting
     cleanIntermediateBuild().then(() => {
+      // eslint-disable-next-line no-console
       console.error(error);
       process.exit(1);
     });

@@ -27,7 +27,7 @@ Check out the [demo](https://clauderic.github.io/react-tiny-virtual-list/) for s
 Using [npm](https://www.npmjs.com/):
 
 ```
-npm install react-tiny-virtual-list --save
+npm install react-retiny-virtual-list --save
 ```
 
 ES6, CommonJS, and UMD builds are available with each distribution. For example:
