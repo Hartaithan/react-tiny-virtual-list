@@ -6,6 +6,7 @@
     "plugin:shopify/jest"
   ],
   "rules": {
+    "prettier/prettier": "off",
     "no-undefined": "off",
     "no-param-reassign": "off",
     "react/no-unused-prop-types": "off",
